@@ -34,7 +34,7 @@ File Zipper is a simple application that allows you to select multiple files, re
 
 1. **Run the application**:
     ```bash
-    python -m file_zipper_app.main
+    python -m app.main
     ```
 
 ## License
