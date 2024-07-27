@@ -1,5 +1,5 @@
 import tkinter as tk
-from file_zipper import FileZipper
+from app.file_zipper import FileZipper
 
 def main():
     root = tk.Tk()
