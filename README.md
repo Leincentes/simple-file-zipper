@@ -22,12 +22,12 @@ File Zipper is a simple application that allows you to select multiple files, re
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/file_zipper_app.git
+    git clone https://github.com/Leincentes/simple-file-zipper.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd file_zipper_app
+    cd simple-file-zipper
     ```
 
 ## How to Run
