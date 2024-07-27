@@ -1,46 +1,42 @@
-# File Zipper GUI
+# File Zipper
 
-This is a simple file zipper application with a graphical user interface (GUI) built using Tkinter in Python. The application allows users to select multiple files and compress them into a single zip archive.
+## Overview
+
+File Zipper is a simple application that allows you to select multiple files, remove selected files, and create a zip archive. The application is built using Python and Tkinter.
 
 ## Features
 
-- **Add Files**: Select multiple files to add to the zip archive.
-- **Remove Selected Files**: Remove selected files from the list of files to be zipped.
-- **Create Zip**: Compress the selected files into a zip archive.
+- Add multiple files to the list
+- Remove selected files from the list
+- Create a zip archive from the selected files
+- Custom zip file name input
+- File type filtering
+- Progress bar during zip creation
 
-## Requirements
+## Prerequisites
 
 - Python 3.x
 - Tkinter (usually included with Python installations)
 
 ## Installation
 
-1. Clone the repository or download the script.
-2. Ensure you have Python 3.x installed on your system.
-3. Run the script using the command:
+1. **Clone the repository**:
     ```bash
-    python file_zipper.py
+    git clone https://github.com/yourusername/file_zipper_app.git
     ```
 
-## Usage
+2. **Navigate to the project directory**:
+    ```bash
+    cd file_zipper_app
+    ```
 
-1. **Add Files**: Click the "Add Files" button to select files to be zipped.
-2. **Remove Selected Files**: Select files in the listbox and click "Remove Selected Files" to remove them.
-3. **Create Zip**: Click the "Create Zip" button to save the selected files into a zip archive. A file dialog will prompt you to specify the location and name of the zip file.
+## How to Run
 
-## Code Structure
-
-- **FileZipper Class**: Handles the GUI creation and event handling.
-  - `create_widgets()`: Initializes the GUI widgets.
-  - `add_files()`: Opens a file dialog to select files and adds them to the listbox and internal file list.
-  - `remove_files()`: Removes selected files from the listbox and internal file list.
-  - `create_zip()`: Creates a zip archive of the selected files, saving it to the user-specified location.
-
-## Example
-
-Run the script and a window will appear with buttons to add files, remove selected files, and create a zip archive. The listbox displays the selected files.
+1. **Run the application**:
+    ```bash
+    python -m file_zipper_app.main
+    ```
 
 ## License
 
-This project is licensed under the MIT License.
-
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
